@@ -1,0 +1,79 @@
+@import "../mixins.less";
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+    #topmenu{
+        ul.nav{
+            .dropdown-menu{
+                position: relative; display: block;
+                top: auto; left: auto; padding-left: 10px;
+                border: none; .shadown(none); margin-bottom: 12px;
+            }
+            li{
+                a{padding-top: 5px; padding-bottom: 5px;}
+            }
+        }
+        .navbar-toggle .icon-bar{background: #fff;}
+    }
+}
+
+@media screen and (max-width: 768px){
+    html, body{font-size: 13px;}
+    #topmenu{padding-top: 0; padding-bottom: 0;}
+    footer{
+        .ft_box{margin-bottom: 20px;}
+    }
+    .album_posts{
+        margin-left: -10px; margin-right: -10px;
+    }
+    .album_posts{
+        .inner{
+            .title{ 
+                top: auto; bottom: 0; height: auto;
+                opacity: 1; margin-bottom: 0;
+                .center{
+                    position: static; top: auto; .transform(none); left: auto; padding: 5px 10px;
+                }
+                &:hover{
+                    background: rgba(0, 0, 0, 0.8);
+                    .txt{color: #fff;}
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 480px){
+    html, body{font-size: 12px;}
+    .meta_col{width: 60px; margin-right: 0;}
+    .wrap{
+        padding-left: 8px; padding-right: 8px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .posts{
+        [class*="col-xs-"]{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}

@@ -1,0 +1,119 @@
+.clearf {
+  clear: both;
+}
+.clearf:after,
+.clearf:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.sizing-border {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+.sizing-content {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+}
+.multicl_bar {
+  background: -webkit-linear-gradient(left, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
+  background: -moz-linear-gradient(left, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
+  background: -o-linear-gradient(left, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
+  background: linear-gradient(left, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
+}
+.mgb-10 {
+  margin-bottom: 10px;
+}
+.mgb-15 {
+  margin-bottom: 15px;
+}
+.mgb-20 {
+  margin-bottom: 20px;
+}
+.mgb-25 {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 992px) {
+  #topmenu ul.nav .dropdown-menu {
+    position: relative;
+    display: block;
+    top: auto;
+    left: auto;
+    padding-left: 10px;
+    border: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    margin-bottom: 12px;
+  }
+  #topmenu ul.nav li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #topmenu .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+  #topmenu {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  footer .ft_box {
+    margin-bottom: 20px;
+  }
+  .album_posts {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .album_posts .inner .title {
+    top: auto;
+    bottom: 0;
+    height: auto;
+    opacity: 1;
+    margin-bottom: 0;
+  }
+  .album_posts .inner .title .center {
+    position: static;
+    top: auto;
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    left: auto;
+    padding: 5px 10px;
+  }
+  .album_posts .inner .title:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .album_posts .inner .title:hover .txt {
+    color: #fff;
+  }
+}
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  .meta_col {
+    width: 60px;
+    margin-right: 0;
+  }
+  .wrap {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .posts [class*="col-xs-"] {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=fl_screen.css.map */
